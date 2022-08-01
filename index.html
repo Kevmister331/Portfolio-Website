@@ -16,14 +16,24 @@
 
     <body>
         <header>
-            <img class="logo" src="images ..." alt="logo">
+            <div class="logo">
+                
+                 <img src="images/KH.JPG" alt="logo" width="30%" height="30%">
+                 <a target="_blank" href="https://www.linkedin.com/in/kevin-hu1">
+                    <span class="iconify" data-icon="akar-icons:linkedin-box-fill" data-width="40" data-height="40"></span>
+                </a>
+                <a target="_blank" href="https://github.com/Kevmister331">
+                    <span class="iconify" data-icon="akar-icons:github-fill" data-width="40" data-height="40"></span>
+                </a>
+               
+            </div>
             <nav>
                 <ul class="nav__links">
-                    <li><a href="#">About Me</a></li>
-                    <li><a href="#">Projects</a></li>
+                    <li><a href="#about-section"><button class="button">About Me</button></a></li>
+                    <li><a href="#featured-projects"><button class="button">Projects</button></a></li>
+                    <li><a href="#contact"><button class="button">Contact</button></a></li>
                 </ul>
             </nav>
-            <a class="cta" href="#"><button>Contact</button></a>
         </header>
         <title>Kevin Hu</title>
         <section class="s1">
@@ -39,10 +49,6 @@
 							<div id="dot-2" class="browser-dot"></div>
 							<div id="dot-3" class="browser-dot"></div>
 						</div>
-
-                        <ul id="navigation">
-                            <li><a href="#">Contact</a></li>
-                        </ul>
                     </div>
 
                     <div class="left-column">
@@ -66,18 +72,23 @@
             </div>
         </section>
 
-        <section class="s2">
+        <section id = "about-section" class="s2">
             <div class="main-container">
                 <div class="about-wrapper">
                     <div id="about-wrapper-words">
-                        <h3>MORE ABOUT ME</h3>
+                        <h2>ABOUT ME</h2>
+                        <hr>
         
-                        <p>jfalskjd lkasjdlkasjd laskjdk awijdasijdoi wjasd wkaljsldkjawklsjdkalsjd</p>
-        
-                         <p>awdwadjwaoidju iajwdio jwaodj oiawjdioj aoisjdk lj;lkfjd;aslkjf ;laksdjfl;k asdjf;ladskjf;l kjsdaf</p>
+                        <p>My name is Kevin Hu, and I'm an aspiring software engineer pursuing a double major in Business & Computer Science at the University of British Columbia! My academic/career interests lie under full-stack development, web3, finance, and entrepreneurship.</p>
+                        
+                        <br>
+
+                        <p>Outside the world of tech, I enjoy expressing my creativity through cinematic creation (producing and editing content). I also like to stay active by working out and playing badminton + volleyball!</p>
                   </div>
                   <div>
-                    <h3>LANGUAGES + FRAMEWORKS</h3>
+                    <h2>LANGUAGES + FRAMEWORKS</h2>
+                    <hr>
+                    <br>
                     <div id="skills">
                         <ul>
                             <li>Python</li>
@@ -88,24 +99,61 @@
                             <li>Racket</li>
                         </ul>
                     </div>  
-                 </div>      
+                    <h2>LINKS</h2>
+                    <hr>
+                        <p>Click <a target="_blank" href="resume.pdf">here</a> to download my resume!</p>
+                        <a target="_blank" href="https://www.linkedin.com/in/kevin-hu1">
+                            <span class="iconify" data-icon="akar-icons:linkedin-box-fill" data-width="75" data-height="75"></span>
+                        </a>  
+                        <a target="_blank" href="https://github.com/Kevmister331">
+                            <span class="iconify" data-icon="akar-icons:github-fill" data-width="75" data-height="75"></span>
+                        </a>                                              
+                    </div>
+
                 </div>
              </div>
+             <script src="https://code.iconify.design/2/2.2.1/iconify.min.js">       
+            </script>
         </section>
 
 
-        <section class="s1">
+        <section id = "featured-projects" class="s1">
             <div class="main-container">
-                <h4>TOP EXPERTISE</h4>
-    
-                <p>Fullstack developer with primary focus on Django + React: <a target="_blank" href="resume.pdf">Download Resume</a></p>
+                <h2 style="text-align: center;">FEATURED PROJECTS</h2>
+                <div class="projects">
+                    <div class="one-project">
+                        <div>
+                            <h3>This Personal Portfolio Website</h3>
+                            <p>I developed this site using HTML & CSS to (1) introduce myself to front-end development, and (2) to create a platform to showcase my journey as a software developer! In the future, I will experiment with different frameworks to enhance the site such as React and Tailwind.</p>
+                            <p><a target="_blank" href="resume.pdf">Live Project</a></p>
+                            <p><a target="_blank" href="https://github.com/Kevmister331/Portfolio-Website">Github</a></p>
+                        </div>
+                        <div>
+                            <img class="project-image" src="images/unnamed.png">
+                        </div>
+                        </div>
+                    
+                    <div class="one-project">
+                        <div>
+                            <h3>Lorem Ipsum</h3>
+                            <p>Maecenas ac tincidunt magna. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec vel blandit elit. In in lobortis magna, vel venenatis sapien. Duis tincidunt lectus ut sodales vulputate. </p>
+                            <p><a target="_blank" href="resume.pdf">Live Project</a></p>
+                            <p><a target="_blank" href="https://github.com/Kevmister331/Portfolio-Website">Github</a></p>
+                        </div>
+                    <div>
+                        <img class="project-image" src="images/eric fu.jpg">
+                    </div>
+                    </div>
+                    
+                </div>
+                
             </div>
         </section>
 
-        <section class="s2">
+        <section id = "contact" class="s2">
             <div class="main-container">
                 <a href=""></a>
-                <h3 style="text-align: center;">Get In Touch</h3>
+                <h2 style="text-align: center;">GET IN TOUCH</h2>
     
                 <form id="contact-form">
                     <a name="contact"></a>
